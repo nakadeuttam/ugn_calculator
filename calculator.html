@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+  </head>
+  <body bgcolor="orange">
+    
+    <div><h1 style="margin-left: 30px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Welcome to myCalsi</h1></div>
+  <div><h1 style="margin-left: 50px; text-align: center;">Calculator</h1></div>
+    <div class="calculator">
+        
+      <input type="text" id="result" disabled>
+      <button onclick="clearResult()">AC</button>
+      <button onclick="getResult('%')">%</button>
+      <button onclick="getResult('/')">/</button>
+      <button onclick="getResult('*')">*</button>
+      <button onclick="getResult('7')">7</button>
+      <button onclick="getResult('8')">8</button>
+      <button onclick="getResult('9')">9</button>
+      <button onclick="getResult('-')">-</button>
+      <button onclick="getResult('4')">4</button>
+      <button onclick="getResult('5')">5</button>
+      <button onclick="getResult('6')">6</button>
+      <button onclick="getResult('+')">+</button>
+      <button onclick="getResult('1')">1</button>
+      <button onclick="getResult('2')">2</button>
+      <button onclick="getResult('3')">3</button>
+      <button onclick="getResult('0')">0</button>
+      <button onclick="getResult('.')">.</button>
+      <button onclick="calculateResult()">=</button>
+    </div>
+    <script src="calculator.js"></script>
+  </body>
+</html>
